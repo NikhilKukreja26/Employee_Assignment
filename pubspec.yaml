@@ -1,0 +1,36 @@
+name: employee_assignment
+description: It is an Assignment project where user can add/edit and delete employees records. The records will be saved in local database using sqflite database and this project uses bloc state management solution and for navigation GoRouter is used. In order to run this project make sure you have latest Flutter SDK is installed on your machine this project uses Flutter version - 3.13.0 and Dart SDK - 3.1.0
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  bloc: ^8.1.2
+  cupertino_icons: ^1.0.5
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_native_splash: ^2.3.2
+  flutter_screenutil: ^5.8.4
+  flutter_svg: ^2.0.7
+  go_router: ^10.0.0
+  grouped_list: ^5.1.2
+  intl: ^0.18.1
+  material_design_icons_flutter: ^7.0.7296
+  path: ^1.8.3
+  sqflite: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
